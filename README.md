@@ -1,16 +1,54 @@
-# React + Vite
+# 🍳 Recipe Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React app for discovering and saving your favorite recipes.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://recipe-finder-one-omega.vercel.app/
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Search recipes by name
+- Filter recipes by category
+- View full recipe details in a modal
+- Watch YouTube tutorial from the modal
+- Save favorite recipes with localStorage
+- Favorites tab to view saved recipes
+- Loading spinner while fetching
+- Warm and cozy UI design
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- CSS
+- TheMealDB API (free, no key needed!!)
+
+## 🧩 Components
+
+- `SearchForm` — controlled search input
+- `CategoryFilter` — filter buttons by meal category
+- `RecipeCard` — displays recipe image, name and favorite button
+- `RecipeModal` — full recipe details with instructions and YouTube link
+
+## 📚 What I Learned
+
+- Component separation and reusability
+- Passing props between components
+- useEffect for fetching data on mount
+- Multiple API calls in one app
+- localStorage for persisting favorites
+- Conditional rendering with tabs
+
+## 🏃 How to Run Locally
+
+```bash
+git clone https://github.com/ryzaaaaamaeeeee/recipe-finder.git
+cd recipe-finder
+npm install
+npm run dev
+```
+
+## 👩‍💻 Author
+
+Ryza Mae
